@@ -1,16 +1,16 @@
 <!DOCTYPE HTML>
-<html lang="pl-PL">
+<html lang="en">
 
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="theme-color" content="#fafafa">
-	<meta property="og:url" content="https://orlow.me">
+	<meta property="og:url" content="https://portfolio.baladigitalcloud.com">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Bala">
+	<meta property="og:title" content="Bala Portfolio">
 	<meta property="og:description" content="Programista i libertarianin">
 	<meta property="og:image" content="https://orlow.me/img/thumbnails/main.png">
-	<title>Bala</title>
+	<title>Bala Portfolio</title>
 
 	<!-- Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-51375799-4"></script>
@@ -31,34 +31,39 @@
 
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-	 crossorigin="anonymous">
+	crossorigin="anonymous">
 
 	<!-- Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900">
+
+
 </head>
 
 <body id="body">
 	<header class="header" id="header">
 		<div class="header--container">
 			<h1 class="header--title">
-				Adrian Orłów
+				My Portfolio
 			</h1>
 			<nav class="header--nav">
 				<ul class="nav--list">
 					<a class="nav__el" data-scroll href="#about">
-						<span class="nav--link">o mnie</span>
+						<span class="nav--link">Expertise </span>
 					</a>
 					<a class="nav__el" data-scroll href="#projects">
-						<span class="nav--link">projekty</span>
+						<span class="nav--link">Projects</span>
+					</a>
+					<a class="nav__el" data-scroll href="#devops">
+						<span class="nav--link">devops</span>
 					</a>
 					<a class="nav__el" data-scroll href="#blog">
 						<span class="nav--link">blog</span>
 					</a>
 					<a class="nav__el" data-scroll href="#skills">
-						<span class="nav--link">umiejętności</span>
+						<span class="nav--link">My Skills</span>
 					</a>
 					<a class="nav__el nav__el--last" data-scroll href="#contact">
-						<span class="nav--link link--last">kontakt</span>
+						<span class="nav--link link--last">Contact</span>
 					</a>
 				</ul>
 			</nav>
@@ -70,11 +75,12 @@
 					<span></span>
 				</div>
 				<div class="nav--hamburger__content hidden animated fadeInDown faster">
-					<a class="hamburger--link" data-scroll onclick="toggleNav()" href="#about">o mnie</a>
-					<a class="hamburger--link" data-scroll onclick="toggleNav()" href="#projects">projekty</a>
-					<a class="hamburger--link" data-scroll onclick="toggleNav()" href="#skills">umiejętności</a>
+					<a class="hamburger--link" data-scroll onclick="toggleNav()" href="#about">Expertise</a>
+					<a class="hamburger--link" data-scroll onclick="toggleNav()" href="#projects">Projects</a>
+					<a class="hamburger--link" data-scroll onclick="toggleNav()" href="#skills">My Skills</a>
 					<a class="hamburger--link" data-scroll onclick="toggleNav()" href="#blog">blog</a>
-					<a class="hamburger--link" data-scroll onclick="toggleNav()" href="#contact">kontakt</a>
+					<a class="hamburger--link" data-scroll onclick="toggleNav()" href="#devops">DevOps</a>
+					<a class="hamburger--link" data-scroll onclick="toggleNav()" href="#contact">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -83,28 +89,40 @@
 	<main id="main">
 		<section class="section section__hero">
 			<div class="section--container container--hero">
-				<p class="hero--intro animated fadeIn">Cześć, jestem</p>
-				<h1 class="hero--title animated fadeIn">Adrian Orłów</h1>
+				<p class="hero--intro animated fadeIn">Hey !, Am </p>
+				<h1 class="hero--title animated fadeIn">Balasubramani K</h1>
 
 				<div class="container--hero__btn animated fadeInUp delay-1s">
-					<a class="hero__btn" data-scroll href="#about">Poznaj mnie</a>
+					<!-- <a class="hero__btn" data-scroll href="#about">Cloud and DevOps Engineer</a> -->
+					<a class="hero__btn" data-scroll>Cloud and DevOps Engineer</a>
 				</div>
 			</div>
 		</section>
 		<section class="section section__dark" id="about">
 			<div class="section--container">
-				<h1 class="section--title">DevOps</h1>
+				<h1 class="section--title">Am Expertise in</h1>
 				<div class="section--separator"></div>
-				<p class="section--subtitle">Nieco na mój temat. Kliknij, aby dowiedzieć się więcej.</p>
+				<p class="section--subtitle">Technical expertise of my career.</p>
 				<div class="about">
 					<div class="about__container">
 						<a class="about--el wow pulse animated" data-scroll href="#projects">
 							<img src="./img/about/programming.png">
 							<span>AWS</span>
 						</a>
+                        
+                         <a class="about--el wow pulse animated" data-scroll href="#devops">
+							<img src="./img/about/programming.png">
+							<span>DevOps</span>
+						</a>
+
+						<a class="about--el wow pulse animated" data-scroll href="#projects">
+							<img src="./img/about/programming.png">
+							<span>Linux</span>
+						</a>
+
 						<a class="about--el wow pulse animated" data-scroll href="#blog">
 							<img src="./img/about/writing.jpg">
-							<span>Bloguję</span>
+							<span>Blog</span>
 						</a>
 					</div>
 				</div>
@@ -112,15 +130,15 @@
 		</section>
 		<section class="section section__light" id="projects" style="padding: 5% 0;">
 			<div class="section--container">
-				<h1 class="section--title">Projekty</h1>
+				<h1 class="section--title">AWS Cloud - Sample Projects</h1>
 				<div class="section--separator" style="background: #222"></div>
-				<p class="section--subtitle" style="color: #737373;">Poniżej znajdują się projekty stworzone przeze mnie w
-					przeciągu
-					ostatnich kilku miesięcy.</p>
+				<p class="section--subtitle" style="color: #737373;">Role played on as an AWS Cloud Engineer, Solution Architect and AWS DevOps Engineer.</p>
 				<div class="projects">
-					<div onclick="showProjectInfo('short-news')" class="project animated wow zoomIn">
-						<img class="img--project" src="./img/projects/short-news.jpg">
-						<p class="p--project">ShortNews</p>
+					<div onclick="showProjectInfo('Serverless-Website')" class="project animated wow zoomIn">
+						<img class="img--project" src="./img/projects/Serverless-Website/Serverless-Website.jpg" alt="">
+						<p class="p--project">Serverless-Website</p>
+						
+
 					</div>
 					<div onclick="showProjectInfo('schoolbot')" class="project animated wow zoomIn">
 						<img class="img--project" src="./img/projects/schoolbot.jpg">
@@ -161,6 +179,62 @@
 				</div>
 			</div>
 		</section>
+
+
+        <section class="section section__light" id="devops" style="padding: 5% 0;">
+			<div class="section--container">
+				<h1 class="section--title">DevOps - Sample Projects</h1>
+				<div class="section--separator" style="background: #222"></div>
+				<p class="section--subtitle" style="color: #737373;">Role played on as an AWS Cloud Engineer, Solution Architect and AWS DevOps Engineer.</p>
+				<div class="projects">
+					<div onclick="showProjectInfo('Serverless-Website')" class="project animated wow zoomIn">
+						<img class="img--project" src="./img/projects/Serverless-Website/Serverless-Website.jpg" alt="">
+						<p class="p--project">Serverless-Website</p>
+						
+
+					</div>
+					<div onclick="showProjectInfo('schoolbot')" class="project animated wow zoomIn">
+						<img class="img--project" src="./img/projects/schoolbot.jpg">
+						<p class="p--project">SchoolBot</p>
+					</div>
+					<div onclick="showProjectInfo('moje-zdrowie')" class="project animated wow zoomIn">
+						<img class="img--project" src="./img/projects/moje-zdrowie.jpg">
+						<p class="p--project">Moje Zdrowie</p>
+					</div>
+				</div>
+				<div class="projects">
+					<div onclick="showProjectInfo('vlocal')" class="project animated wow zoomIn">
+						<img class="img--project" src="./img/projects/vlocal.jpg">
+						<p class="p--project">vLocal</p>
+					</div>
+					<div onclick="showProjectInfo('mypolitics')" class="project animated wow zoomIn">
+						<img class="img--project" src="./img/projects/mypolitics.jpg">
+						<p class="p--project">myPolitics</p>
+					</div>
+					<div onclick="showProjectInfo('mylibrary')" class="project animated wow zoomIn">
+						<img class="img--project" src="./img/projects/mylibrary.jpg">
+						<p class="p--project">myLibrary</p>
+					</div>
+				</div>
+				<div class="projects">
+					<div onclick="showProjectInfo('mini')" class="project animated wow zoomIn">
+						<img class="img--project" src="./img/projects/mini.jpg">
+						<p class="p--project">Mini</p>
+					</div>
+					<div onclick="showProjectInfo('groupadmin')" class="project animated wow zoomIn">
+						<img class="img--project" src="./img/projects/groupadmin.jpg">
+						<p class="p--project">GroupAdmin</p>
+					</div>
+					<div onclick="showProjectInfo('orlowblog')" class="project animated wow zoomIn">
+						<img class="img--project" src="./img/projects/aoblog.jpg">
+						<p class="p--project">Adrian Orłów Blog</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
 		<section class="section section__dark" id="skills">
 			<div class="section--container" style="padding: 5% 0;">
 				<h1 class="section--title">Umiejętności</h1>
@@ -216,7 +290,7 @@
 		<div class="contact--map"></div>
 		<section class="section section__light" id="contact" style="padding: 5% 0;">
 			<div class="section--container">
-				<h1 class="section--title">Kontakt</h1>
+				<h1 class="section--title">Contact</h1>
 				<div class="section--separator" style="background: #222"></div>
 				<form class="contact animated wow zoomInUp" action="https://formspree.io/adrian@orlow.me" method="POST">
 					<div class="contact__el--top">

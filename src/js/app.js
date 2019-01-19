@@ -133,14 +133,14 @@ var projects = [{
     "demoLink": "http://blog.orlow.me",
     "technologies": ["jekyll", "css"]
 }, {
-    "id": "short-news",
-    "name": "ShortNews",
-    "shortDesc": "Wiadomości w jednym miejscu",
-    "longDesc": "Zaprojektowany z myślą o uczniach, których nauczyciele wiedzy o społeczeństwie wymagają pisania tzw. prasówek, czyli najnowszych, skróconych wiadomości z wybranych dziedzin. Ta aplikacja ten proces całkowicie ułatwia, działa na zasadzie czytnika RSS.",
+    "id": "Serverless-Website",
+    "name": "Serverless-Website",
+    "shortDesc": "Serverless-Website",
+    "longDesc": "Serverless-Website.",
     "license": "MIT",
     "sourceLink": "https://github.com/AdrianOrlow/short-news",
     "demoLink": "https://short-news.herokuapp.com/",
-    "technologies": ["go", "css"]
+    "technologies": ["github","go", "css"]
 }, {
     "id": "schoolbot",
     "name": "SchoolBot",
